@@ -2,7 +2,7 @@
 #### 整體而言可能是因為只有一層，從肉眼看預測結果就能發現有點underfitig，許多預測結果和實際值相差甚遠，並且迭帶夠多的話最後所有y都會收斂到價格平均大約180000上下，可能需要加入強化式學習
 
 ### preprocessing: 
-#### 做了mice imputing 和robust scaling 沒做normalization
+#### 做了mice imputing 和robust scaling 沒做normaliza，因維kaggle沒葛y_test的資料，所以把train.csv依照8:2分train test
 
 ### hidden nodes: 
 #### 不管5、8或11 訓練出來的結果差不多，可能是前面proeprocessing 的時候 dummy 產生過多categorical variables
